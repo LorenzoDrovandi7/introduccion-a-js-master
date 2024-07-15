@@ -3,46 +3,49 @@
 // Preguntarle estos datos al usuario y guardarlos en 2 variables
 // Ejecutar la función con estos datos
 // Impriman el resultado en la consola
-function calcularEdad(anioActual, anioNacimiento) {
-    return anioActual - anioNacimiento;
-}
 
-const anioActual = Number(prompt("Cuál es el año actual?"));
-const anioNacimiento = Number(prompt("En qué año naciste?"));
+// function calcularEdadUsuario(anioActual, anioNacimiento) {
+//   return anioActual - anioNacimiento;
+// }
 
-console.log('Tenés ' + calcularEdad(anioActual, anioNacimiento) + ' años');
+// let anioActual = Number(prompt("Ingrese el año actual"));
+// let anioNacimiento = Number(prompt("Ingrese su año de nacimiento"));
+
+// console.log(calcularEdadUsuario(anioActual, anioNacimiento));
 
 // Preguntar el salario anual y calcular el salario mensual
 // Preguntar el salario mensual y calcular el anual
 // diario... semanal, por hora. etc.
 
-function calcularSalarioAnual(salarioMensual) {
-    const cantidadMesesEnUnAnio = 12;
-    return salarioMensual * cantidadMesesEnUnAnio;
-}
+// let salarioAnual = Number(prompt("Ingrese su salaio anual"));
+// let salarioMensual = Number(prompt("Ingrese su salario mensual"));
 
-function calcularSalarioMensual(salarioAnual) {
-    const cantidadMesesEnUnAnio = 12;
-    return salarioAnual / cantidadMesesEnUnAnio;
-}
+// function calcularSalarioMensual(salarioAnual) {
+//   return salarioAnual / 12;
+// }
 
-function calcularSalarioSemanal(salarioAnual) {
-    const cantidadSemanasEnUnAnio = 52;
-    return salarioAnual / cantidadSemanasEnUnAnio;
-}
+// function calcularSalarioAnual(salarioMensual) {
+//   return salarioMensual * 12;
+// }
 
-function calcularSalarioDiario(salarioAnual) {
-    const cantidadDiasEnUnAnio = 365;
-    return salarioAnual / cantidadDiasEnUnAnio;
-}
+// function calcularSalarioSemanal(salarioMensual) {
+//   return salarioMensual / 4;
+// }
 
-const salarioMensual = Number(prompt('Cuál es tu salario mensual?'));
-console.log('Tu salario anual es ' + calcularSalarioAnual(salarioMensual));
+// function calcularSalarioDiario(salarioMensual) {
+//   return salarioMensual / 30;
+// }
 
-const salarioAnual = Number(prompt('Cuál es tu salario mensual?'));
-console.log('Tu salario mensual es ' + calcularSalarioMensual(salarioAnual));
-console.log('Tu salario semanal es ' + calcularSalarioSemanal(salarioAnual));
-console.log('Tu salario diario es ' + calcularSalarioDiario(salarioAnual));
+// function calcularSalarioHora(salarioMensual) {
+//   let salarioDiario = salarioMensual / 30;
+//   return salarioDiario / 24;
+// }
+
+// console.log("Su salario mensual es de" + " " + calcularSalarioMensual(salarioAnual));
+// console.log("Su salario anual es de" + " " + calcularSalarioAnual(salarioMensual));
+// console.log("Su salario semanal es de" + " " + calcularSalarioSemanal(salarioMensual));
+// console.log("Su salario diario es de" + " " + calcularSalarioDiario(salarioMensual));
+// console.log("Su salario por hora es de" + " " + calcularSalarioHora(salarioMensual));
 
 /// SCOPE
 
