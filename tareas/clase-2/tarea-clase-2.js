@@ -18,23 +18,36 @@
 
 // TAREA: Cambiar el operador a '-', y fijarse que llame a la función 'restar' en vez de a la de 'sumar'.
 
-function sumar(numero1, numero2) {
-  return numero1 + numero2
-}
+// function sumar(numero1, numero2) {
+//   return numero1 + numero2;
+// }
 
-function restar(numero1, numero2) {
-  return numero1 - numero2
-}
+// function restar(numero1, numero2) {
+//   return numero1 - numero2;
+// }
 
-const numero1 = 2;
-const numero2 = 2;
-let operador = prompt("Ingrese el operador que desea utilizar");
+// function dividir(numero1, numero2) {
+//   return numero1 / numero2;
+// }
 
-if (operador === "+") {
-  console.log(sumar(numero1, numero2));
-} else {
-  console.log(restar(numero1, numero2));
-}
+// function muiltiplicar(numero1, numero2) {
+//   return numero1 * numero2;
+// }
 
+// let operador = prompt("Ingrese el operador que desea utilizar");
+// let numero1 = 2;
+// let numero2 = 2;
+
+// if (operador === "+") {
+//   console.log(sumar(numero1, numero2));
+// } else if (operador === "-") {
+//   console.log(restar(numero1, numero2));
+// } else if (operador === "/") {
+//   console.log(dividir(numero1, numero2));
+// } else if (operador === "*") {
+//   console.log(muiltiplicar(numero1, numero2));
+// } else {
+//   console.log("No es posible reconocer el operador ingresado, intente de nuevo")
+// }
 //https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/template_strings
 

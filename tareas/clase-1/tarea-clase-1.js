@@ -17,7 +17,7 @@
 // Preguntar el salario mensual y calcular el anual
 // diario... semanal, por hora. etc.
 
-// let salarioAnual = Number(prompt("Ingrese su salaio anual"));
+// let salarioAnual = Number(prompt("Ingrese su salario anual"));
 // let salarioMensual = Number(prompt("Ingrese su salario mensual"));
 
 // function calcularSalarioMensual(salarioAnual) {
@@ -38,14 +38,14 @@
 
 // function calcularSalarioHora(salarioMensual) {
 //   let salarioDiario = salarioMensual / 30;
-//   return salarioDiario / 24;
+//   return salarioDiario / 8;
 // }
 
-// console.log("Su salario mensual es de" + " " + calcularSalarioMensual(salarioAnual));
-// console.log("Su salario anual es de" + " " + calcularSalarioAnual(salarioMensual));
-// console.log("Su salario semanal es de" + " " + calcularSalarioSemanal(salarioMensual));
-// console.log("Su salario diario es de" + " " + calcularSalarioDiario(salarioMensual));
-// console.log("Su salario por hora es de" + " " + calcularSalarioHora(salarioMensual));
+// console.log("Su salario anual es de " + calcularSalarioAnual(salarioMensual));
+// console.log("Su salario mensual es de " + calcularSalarioMensual(salarioAnual));
+// console.log("Su salario semanal es de " + calcularSalarioSemanal(salarioMensual));
+// console.log("Su salario diario es de " + calcularSalarioDiario(salarioMensual));
+// console.log("Su salario por hora es de " + calcularSalarioHora(salarioMensual));
 
 /// SCOPE
 

@@ -10,23 +10,25 @@
 // let nombreUsuario = prompt("Ingrese su nombre");
 
 // if (nombreUsuario.toLowerCase() === "lorenzo") {
-//   console.log("Hola! Yo tambien me llamo" + " " + nombreUsuario);
+//   console.log("Hola! Yo tambien me lamo Lorenzo");
 // } else if (nombreUsuario.toLowerCase() === "bautista") {
 //   console.log("Hola! Te llamas igual que mi hermano");
 // } else {
-//   console.log("Hola!" + " " + nombreUsuario);
+//   console.log("Hola! " + nombreUsuario);
 // }
 
 //Tarea 2:
 // Preguntar la edad del usuario
 // Hacerle saber si tiene más, menos ó la misma edad que nosotros.
 
-// let edadUsuario = Number(prompt("Ingrese su edad"));
+// let edadUsuario = Number(prompt("Inserte su edad"));
 
-// if (edadUsuario > 20) {
+// if (edadUsuario === 21) {
+//   console.log("Tenemos la misma edad");
+// } else if (edadUsuario > 21) {
 //   console.log("Usted es mayor a mi");
 // } else {
-//   console.log("Usted es menor que yo");
+//   console.log("Usted es menor a mi");
 // }
 
 //Tarea 3:
@@ -38,29 +40,31 @@
 // Si no entendemos la respuesta, le decimos que no entendimos la respuesta.
 // Punto bonus: SI, NO, Si, No, si, no.
 
-// let preguntarPosesionDocumento = prompt("¿Posee documento?");
-// let poseeDocumento;
+// let preguntarDocumento = prompt("¿Posee documento?(Si/No)");
+// let preguntarEdad;
 // let edadUsuario;
 
-// if (preguntarPosesionDocumento.toLowerCase() === "si") {
-//   poseeDocumento = true;
-// } else if (preguntarPosesionDocumento.toLowerCase() === "no"){
-//   poseeDocumento = false;
-//   console.log("Usted no puede entrar al bar")
+// if (preguntarDocumento.toLowerCase() === "si") {
+//   preguntarEdad = true;
+// } else if (preguntarDocumento.toLowerCase() === "no") {
+//   preguntarEdad = false;
+//   console.log("Al no tener documento, no puede entrar al bar");
 // } else {
-//   console.log("No se comprendio la respuesta, recargue la pagina e intente nuevamente.")
+//   preguntarEdad = false;
+//   console.log("No se entendio la respuesta, intente nuevamente");
 // }
 
-// if (poseeDocumento) {
+// if (preguntarEdad === true) {
 //   edadUsuario = Number(prompt("Ingrese su edad"));
-// }
 
-// if (edadUsuario > 18) {
-//   console.log("Usted puede entrar al bar");
-// } else if (edadUsuario < 18){
-//   console.log("Al ser menor, usted no puede entrar al bar");
+//   if (edadUsuario >= 18) {
+//     console.log("Todo en orden, puede entrar al bar");
+//   } else if (edadUsuario < 18) {
+//     console.log("Al ser menor de edad, no puede entrar al bar");
+//   } else {
+//     console.log("No se entendio la respuesta, intente nuevamente");
+//   }
 // }
-
 
 
 
